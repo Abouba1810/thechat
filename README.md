@@ -28,7 +28,7 @@ its basicaly if matrix and discord had a baby but cooler...
 ### step 1 : Get The Goods
 ```bash
 git clone https://github.com/illruinyourlife/thechat.git
-cd hacker-terminal-chat
+cd thechat-master
 npm install
 ```
 
