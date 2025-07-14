@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+#terminal {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    flex: 1;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+}
+
+#prompt {
+    color: #00ff00;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    outline: none;
+    flex: 1;
+}
+
+#command-input::selection {
+    background: #00ff00;
+    color: #000;
+}
+
+.message {
+    margin: 2px 0;
+}
+
+.system {
+    color: #ffff00;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.user {
+    color: #00ffff;
+}
+
+.connected {
+    color: #00ff00;
+}
+
+.disconnected {
+    color: #ff6600;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ff00;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
