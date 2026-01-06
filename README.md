@@ -27,8 +27,8 @@ its basicaly if matrix and discord had a baby but cooler...
 
 ### step 1 : Get The Goods
 ```bash
-git clone https://github.com/illruinyourlife/thechat.git
-cd thechat-master
+git clone https://github.com/abbgoesghost/thechat.git
+cd thechat
 npm install
 ```
 
@@ -46,7 +46,7 @@ npm run server
 ### step 4 : connect
 in the electron app terminal:
 ```bash
-connect localhost:3883 your_username your_password
+connect localhost:3883 username your_password
 ```
 
 ## making your Server Public
@@ -61,7 +61,7 @@ connect localhost:3883 your_username your_password
 # use localtunel
 npx localtunnel --port 3883
 
-# or use ngrok  
+# orn use ngrok  
 ngrok tcp 3883
 ```
 **not a pro tip**: use the same password as your friends or youll see `[ENCRPTED MESSAGE BLABLA - WONG KEY]`
