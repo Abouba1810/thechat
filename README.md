@@ -94,7 +94,7 @@ found a bug? wants to add feature?
 2. make it better
 3. submit PR
 4. get eternal glory...
-
+5.thanks yous
 ## disclaimer
 
 this is for educational purpose (side eye) and having fun with friends (side eye). dont use it for anything sus (side eye)... were not responsible if you get in trouble with your schools IT department (no side eye)
